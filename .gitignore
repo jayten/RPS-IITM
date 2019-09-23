@@ -1,0 +1,13 @@
+#ignore auxiallary file
+*.pdf
+*.aux
+*.lof
+*.log
+*.lot
+*.bbl
+*.t0c
+*.blg
+
+
+# out folder
+./out/*

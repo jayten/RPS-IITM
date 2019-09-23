@@ -1,0 +1,41 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Introduction.
+
+\chapter{INTRODUCTION}
+\label{chap:intro}
+A fluid-flow around a solid body leads to the development of the boundary layer over its surface.
+In most industrial and engineering application, the boundary layer usually starts as a laminar layer and then transition into a turbulent region.
+Different regimes of the boundary layer have a different effect on the solid body regarding surface drag, heat-transfer, etc. 
+In industry, due to a perpetual requirement to increase the performance efficiency of various systems (airplanes, cars, turbines, turbojet engines, compressors, heat exchangers, etc.), an accurate and efficient numerical prediction of the boundary layer is required to improve their design.
+A one-tenth of increase in the working efficiency of a gas turbine engine may provide significant economic benefit to the aviation industry \citep{1991Mayle}.
+%Better aerodynamic design (to reduced drag and increased lift) not only improve fuel efficiency but it is also less damaging to the environment and human health.
+The thermal protection system and the flight trajectory of a hypersonic vehicle are significantly affected by the transition process \citep{1997hypersonic}.
+The transition process can also be influenced by the separation behavior of the boundary layer.
+However, in most of the industrial numerical studies, a fully turbulent flow is assumed over whole domain and the influence of transition process on the details of the flow field is neglected.
+The industry's lack of intreset in the transition process is justified from the fact the transition is a complex phenomenon; affected by a large number of parameters \citep{1980Abu, 2006Menter}, that include
+  \begin{itemize}
+    \item Free-stream turbulence intensity,
+    \item pressure gradient and flow separation,
+    \item Reynolds number,
+    \item Mach number,
+    \item wall roughness,
+    \item surface temperature,
+    \item streamline curvature
+  \end{itemize}
+  This wide range of parameters leads to different types of transition mechanisms.
+  The ``natural'' transition, the most common transition mechanism encountered on a vehicle in flight, occurs at low turbulence intensity due to growth and amplification of weak instability in the laminar bounday layer \citep{1956VanIngen}.
+  The natural transition process was first described by Tollmein and Schlichting and hence weak instability in this transition process is known as Tollmien-Schlichting wave \citep{1974Schlichting}. 
+  The ``bypass'' transition occurs at high turbulence intensity  and bypass the Tollmein-Schlichting mode of linear instability \citep{1969Morkovin}. In aeronautics, this transition mechanism is encountered in flight vehicles at the tail surfaces located in the wake of other flight elements \citep{2006Langtry}. 
+  Also in turbomachinery and gas-turbine engines, the bypass transition occurs on the blade surface rotating in the wake of the upstream blade \citep{1991Mayle}. 
+  The boundary layer may separate in a laminar boundary layer region due pressure gradient and reattach as the turbulent boundary layer \citep{1991Mayle}, forming a laminar-separation/turbulent-reattachment ``bubble'' on the surface.
+  Also, in 3D flow, cross-flow may trigger the transition process in the boundary layer. Due to all these different paths to transition, it is difficult to create a single model which can predict transition for a vast range of operating conditions. 
+
+
+
+\section{Overview}
+
+Chapter 2 provides the details of the flow solver (FEST-3D) used for all the simulation performed in this study. 
+
+%\pagebreak
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

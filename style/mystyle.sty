@@ -1,0 +1,65 @@
+\ProvidesPackage{mystyle}
+
+%\usepackage[marginparsep=8pt, left=3cm, right=3.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+%\RequirePackage{emptypage} % avoid page numbers in blank pages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\graphicspath{ {img/} }
+\usepackage{color}
+\usepackage[dvipsnames,usenames]{xcolor}
+\usepackage{etex}
+\usepackage{url}
+\usepackage{natbib}
+\usepackage{caption,subcaption}
+\usepackage{adjustbox}
+%\usepackage[outdir=./images/]{epstopdf}
+\usepackage{epstopdf}
+%\epstopdfsetup{update}
+\epstopdfDeclareGraphicsRule{.tif}{png}{.png}{convert #1 \OutputFile}
+\AppendGraphicsExtensions{.tif}
+\def\thesistitle{A New Local-Correlation Based Zero-equation Transition Model}
+\def\thesisauthor{Jatinder Pal Singh Sandhu}
+\def\Submitdate{December 2018}
+\onehalfspacing
+
+%\def\maketitle{%
+%  \pagenumbering{roman}
+%  \thispagestyle{empty}
+%  \newpage
+%  \null
+%  \pagenumbering{gobble}
+%  \parskip=0pt
+%  \begin{center}%
+%  \let \footnote \thanks
+%  \vglue 0in % this makes top margin 2in
+%  \vskip 5ex%
+%    {\Large \bf \expandafter{\@title} \par}%
+%    \vskip 10ex%
+%    {\normalsize
+%     {\em A Rearch Proposal Seminar Report}\par
+%     \vskip 8ex%
+%     {\normalsize \em submitted by \par}
+%     \vskip 8ex%
+%     {\bf \large\MakeUppercase{\@author}\\(AE15D400)\par\par}
+%     \vskip 8ex%
+%     {\em Under Guidence }\par
+%     \vskip 8ex%
+%     {\em of }\par
+%     \vskip 8ex%
+%     {\bf \large {Dr. Santanu Ghosh}} \par
+%    }
+%  \end{center}%
+%
+%  \vspace*{0.75in}
+%  %\centerline{\psfig{figure=emblem.ps}}
+%%  \centerline{\includegraphics{iitm.eps}}
+%  \centerline{\includegraphics[scale=1.]{iitm}}
+%  \vspace*{+0.35in}
+%  \begin{center}
+%    {\bf \large DEPARTMENT OF AEROSPACE ENGINEERING\par}
+%    {\bf \large INDIAN INSTITUTE OF TECHNOLOGY MADRAS.}
+%    \vglue 0.50em
+%    {\bf \large \@date}\par
+%  \end{center}
+%  \parskip 8pt
+%}
